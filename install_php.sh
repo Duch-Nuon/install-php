@@ -79,9 +79,9 @@ sudo systemctl restart nginx
 cd /usr/local/bin
 sudo wget https://getcomposer.org/download/2.8.1/composer.phar
 
+sudo mv composer.phar composer
 # Make Composer executable
-sudo chmod +x composer.phar
-sudo ln -s /usr/local/bin/composer.phar /usr/local/bin/composer
+sudo chmod +x composer
 
 # Output success message
 echo "PHP 8.2, MySQL (root user configured), Nginx, and Composer (version 2.8.1) have been installed and configured successfully!"
